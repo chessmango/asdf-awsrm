@@ -1,9 +1,9 @@
 <div align="center">
 
-# asdf-awsls [![Build](https://github.com/chessmango/asdf-awsls/actions/workflows/build.yml/badge.svg)](https://github.com/chessmango/asdf-awsls/actions/workflows/build.yml) [![Lint](https://github.com/chessmango/asdf-awsls/actions/workflows/lint.yml/badge.svg)](https://github.com/chessmango/asdf-awsls/actions/workflows/lint.yml)
+# asdf-awsrm [![Build](https://github.com/chessmango/asdf-awsrm/actions/workflows/build.yml/badge.svg)](https://github.com/chessmango/asdf-awsrm/actions/workflows/build.yml) [![Lint](https://github.com/chessmango/asdf-awsrm/actions/workflows/lint.yml/badge.svg)](https://github.com/chessmango/asdf-awsrm/actions/workflows/lint.yml)
 
 
-[awsls](https://github.com/jckuester/awsls) plugin for the [asdf version manager](https://asdf-vm.com).
+[awsrm](https://github.com/jckuester/awsrm) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -23,25 +23,24 @@
 
 Plugin:
 
-Pending: [#557](https://github.com/asdf-vm/asdf-plugins/pull/557)
 ```shell
-asdf plugin add awsls https://github.com/chessmango/asdf-awsls.git
+asdf plugin add awsrm https://github.com/chessmango/asdf-awsrm.git
 ```
 
-awsls:
+awsrm:
 
 ```shell
 # Show all installable versions
-asdf list-all awsls
+asdf list-all awsrm
 
 # Install specific version
-asdf install awsls latest
+asdf install awsrm latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global awsls latest
+asdf global awsrm latest
 
-# Now awsls commands are available
-awsls --version
+# Now awsrm commands are available
+awsrm --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -51,7 +50,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/chessmango/asdf-awsls/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/chessmango/asdf-awsrm/graphs/contributors)!
 
 # License
 
